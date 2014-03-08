@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBEADFF018CB7F3E00C0351A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEADFEF18CB7F3E00C0351A /* Foundation.framework */; };
+		DBEADFF218CB7F3E00C0351A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEADFF118CB7F3E00C0351A /* CoreGraphics.framework */; };
+		DBEADFF418CB7F3E00C0351A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEADFF318CB7F3E00C0351A /* UIKit.framework */; };
+		DBEADFFA18CB7F3E00C0351A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBEADFF818CB7F3E00C0351A /* InfoPlist.strings */; };
+		DBEADFFC18CB7F3E00C0351A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEADFFB18CB7F3E00C0351A /* main.m */; };
+		DBEAE00018CB7F3E00C0351A /* PlayMusicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEADFFF18CB7F3E00C0351A /* PlayMusicAppDelegate.m */; };
+		DBEAE00318CB7F3E00C0351A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEAE00118CB7F3E00C0351A /* Main.storyboard */; };
+		DBEAE00618CB7F3E00C0351A /* PlayMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEAE00518CB7F3E00C0351A /* PlayMusicViewController.m */; };
+		DBEAE00818CB7F3E00C0351A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEAE00718CB7F3E00C0351A /* Images.xcassets */; };
+		DBEAE00F18CB7F3E00C0351A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEAE00E18CB7F3E00C0351A /* XCTest.framework */; };
+		DBEAE01018CB7F3E00C0351A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEADFEF18CB7F3E00C0351A /* Foundation.framework */; };
+		DBEAE01118CB7F3E00C0351A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEADFF318CB7F3E00C0351A /* UIKit.framework */; };
+		DBEAE01918CB7F3E00C0351A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBEAE01718CB7F3E00C0351A /* InfoPlist.strings */; };
+		DBEAE01B18CB7F3E00C0351A /* PlayMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEAE01A18CB7F3E00C0351A /* PlayMusicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBEAE01218CB7F3E00C0351A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBEADFE418CB7F3E00C0351A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBEADFEB18CB7F3E00C0351A;
+			remoteInfo = PlayMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBEADFEC18CB7F3E00C0351A /* PlayMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEADFEF18CB7F3E00C0351A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBEADFF118CB7F3E00C0351A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBEADFF318CB7F3E00C0351A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBEADFF718CB7F3E00C0351A /* PlayMusic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayMusic-Info.plist"; sourceTree = "<group>"; };
+		DBEADFF918CB7F3E00C0351A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBEADFFB18CB7F3E00C0351A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBEADFFD18CB7F3E00C0351A /* PlayMusic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayMusic-Prefix.pch"; sourceTree = "<group>"; };
+		DBEADFFE18CB7F3E00C0351A /* PlayMusicAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayMusicAppDelegate.h; sourceTree = "<group>"; };
+		DBEADFFF18CB7F3E00C0351A /* PlayMusicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayMusicAppDelegate.m; sourceTree = "<group>"; };
+		DBEAE00218CB7F3E00C0351A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBEAE00418CB7F3E00C0351A /* PlayMusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayMusicViewController.h; sourceTree = "<group>"; };
+		DBEAE00518CB7F3E00C0351A /* PlayMusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayMusicViewController.m; sourceTree = "<group>"; };
+		DBEAE00718CB7F3E00C0351A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBEAE00D18CB7F3E00C0351A /* PlayMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEAE00E18CB7F3E00C0351A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DBEAE01618CB7F3E00C0351A /* PlayMusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayMusicTests-Info.plist"; sourceTree = "<group>"; };
+		DBEAE01818CB7F3E00C0351A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBEAE01A18CB7F3E00C0351A /* PlayMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayMusicTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBEADFE918CB7F3E00C0351A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEADFF218CB7F3E00C0351A /* CoreGraphics.framework in Frameworks */,
+				DBEADFF418CB7F3E00C0351A /* UIKit.framework in Frameworks */,
+				DBEADFF018CB7F3E00C0351A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEAE00A18CB7F3E00C0351A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEAE00F18CB7F3E00C0351A /* XCTest.framework in Frameworks */,
+				DBEAE01118CB7F3E00C0351A /* UIKit.framework in Frameworks */,
+				DBEAE01018CB7F3E00C0351A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBEADFE318CB7F3E00C0351A = {
+			isa = PBXGroup;
+			children = (
+				DBEADFF518CB7F3E00C0351A /* PlayMusic */,
+				DBEAE01418CB7F3E00C0351A /* PlayMusicTests */,
+				DBEADFEE18CB7F3E00C0351A /* Frameworks */,
+				DBEADFED18CB7F3E00C0351A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBEADFED18CB7F3E00C0351A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBEADFEC18CB7F3E00C0351A /* PlayMusic.app */,
+				DBEAE00D18CB7F3E00C0351A /* PlayMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBEADFEE18CB7F3E00C0351A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBEADFEF18CB7F3E00C0351A /* Foundation.framework */,
+				DBEADFF118CB7F3E00C0351A /* CoreGraphics.framework */,
+				DBEADFF318CB7F3E00C0351A /* UIKit.framework */,
+				DBEAE00E18CB7F3E00C0351A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBEADFF518CB7F3E00C0351A /* PlayMusic */ = {
+			isa = PBXGroup;
+			children = (
+				DBEADFFE18CB7F3E00C0351A /* PlayMusicAppDelegate.h */,
+				DBEADFFF18CB7F3E00C0351A /* PlayMusicAppDelegate.m */,
+				DBEAE00118CB7F3E00C0351A /* Main.storyboard */,
+				DBEAE00418CB7F3E00C0351A /* PlayMusicViewController.h */,
+				DBEAE00518CB7F3E00C0351A /* PlayMusicViewController.m */,
+				DBEAE00718CB7F3E00C0351A /* Images.xcassets */,
+				DBEADFF618CB7F3E00C0351A /* Supporting Files */,
+			);
+			path = PlayMusic;
+			sourceTree = "<group>";
+		};
+		DBEADFF618CB7F3E00C0351A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBEADFF718CB7F3E00C0351A /* PlayMusic-Info.plist */,
+				DBEADFF818CB7F3E00C0351A /* InfoPlist.strings */,
+				DBEADFFB18CB7F3E00C0351A /* main.m */,
+				DBEADFFD18CB7F3E00C0351A /* PlayMusic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBEAE01418CB7F3E00C0351A /* PlayMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBEAE01A18CB7F3E00C0351A /* PlayMusicTests.m */,
+				DBEAE01518CB7F3E00C0351A /* Supporting Files */,
+			);
+			path = PlayMusicTests;
+			sourceTree = "<group>";
+		};
+		DBEAE01518CB7F3E00C0351A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBEAE01618CB7F3E00C0351A /* PlayMusicTests-Info.plist */,
+				DBEAE01718CB7F3E00C0351A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBEADFEB18CB7F3E00C0351A /* PlayMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEAE01E18CB7F3E00C0351A /* Build configuration list for PBXNativeTarget "PlayMusic" */;
+			buildPhases = (
+				DBEADFE818CB7F3E00C0351A /* Sources */,
+				DBEADFE918CB7F3E00C0351A /* Frameworks */,
+				DBEADFEA18CB7F3E00C0351A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayMusic;
+			productName = PlayMusic;
+			productReference = DBEADFEC18CB7F3E00C0351A /* PlayMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBEAE00C18CB7F3E00C0351A /* PlayMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEAE02118CB7F3E00C0351A /* Build configuration list for PBXNativeTarget "PlayMusicTests" */;
+			buildPhases = (
+				DBEAE00918CB7F3E00C0351A /* Sources */,
+				DBEAE00A18CB7F3E00C0351A /* Frameworks */,
+				DBEAE00B18CB7F3E00C0351A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBEAE01318CB7F3E00C0351A /* PBXTargetDependency */,
+			);
+			name = PlayMusicTests;
+			productName = PlayMusicTests;
+			productReference = DBEAE00D18CB7F3E00C0351A /* PlayMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBEADFE418CB7F3E00C0351A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PlayMusic;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yutaro OBAYASHI";
+				TargetAttributes = {
+					DBEAE00C18CB7F3E00C0351A = {
+						TestTargetID = DBEADFEB18CB7F3E00C0351A;
+					};
+				};
+			};
+			buildConfigurationList = DBEADFE718CB7F3E00C0351A /* Build configuration list for PBXProject "PlayMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBEADFE318CB7F3E00C0351A;
+			productRefGroup = DBEADFED18CB7F3E00C0351A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBEADFEB18CB7F3E00C0351A /* PlayMusic */,
+				DBEAE00C18CB7F3E00C0351A /* PlayMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBEADFEA18CB7F3E00C0351A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEAE00818CB7F3E00C0351A /* Images.xcassets in Resources */,
+				DBEADFFA18CB7F3E00C0351A /* InfoPlist.strings in Resources */,
+				DBEAE00318CB7F3E00C0351A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEAE00B18CB7F3E00C0351A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEAE01918CB7F3E00C0351A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBEADFE818CB7F3E00C0351A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEAE00018CB7F3E00C0351A /* PlayMusicAppDelegate.m in Sources */,
+				DBEAE00618CB7F3E00C0351A /* PlayMusicViewController.m in Sources */,
+				DBEADFFC18CB7F3E00C0351A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEAE00918CB7F3E00C0351A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEAE01B18CB7F3E00C0351A /* PlayMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBEAE01318CB7F3E00C0351A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBEADFEB18CB7F3E00C0351A /* PlayMusic */;
+			targetProxy = DBEAE01218CB7F3E00C0351A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBEADFF818CB7F3E00C0351A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBEADFF918CB7F3E00C0351A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBEAE00118CB7F3E00C0351A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBEAE00218CB7F3E00C0351A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBEAE01718CB7F3E00C0351A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBEAE01818CB7F3E00C0351A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBEAE01C18CB7F3E00C0351A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBEAE01D18CB7F3E00C0351A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBEAE01F18CB7F3E00C0351A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayMusic/PlayMusic-Prefix.pch";
+				INFOPLIST_FILE = "PlayMusic/PlayMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBEAE02018CB7F3E00C0351A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayMusic/PlayMusic-Prefix.pch";
+				INFOPLIST_FILE = "PlayMusic/PlayMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DBEAE02218CB7F3E00C0351A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlayMusic.app/PlayMusic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayMusic/PlayMusic-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PlayMusicTests/PlayMusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DBEAE02318CB7F3E00C0351A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlayMusic.app/PlayMusic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayMusic/PlayMusic-Prefix.pch";
+				INFOPLIST_FILE = "PlayMusicTests/PlayMusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBEADFE718CB7F3E00C0351A /* Build configuration list for PBXProject "PlayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEAE01C18CB7F3E00C0351A /* Debug */,
+				DBEAE01D18CB7F3E00C0351A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEAE01E18CB7F3E00C0351A /* Build configuration list for PBXNativeTarget "PlayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEAE01F18CB7F3E00C0351A /* Debug */,
+				DBEAE02018CB7F3E00C0351A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBEAE02118CB7F3E00C0351A /* Build configuration list for PBXNativeTarget "PlayMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEAE02218CB7F3E00C0351A /* Debug */,
+				DBEAE02318CB7F3E00C0351A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBEADFE418CB7F3E00C0351A /* Project object */;
+}
