@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface PlayMusicViewController : UIViewController
+
+@property(nonatomic,retain)AVAudioPlayer *audio;
+- (IBAction)Play:(id)sender;
+- (IBAction)Stop:(id)sender;
+- (IBAction)sliderValueChanged:(id)sender;
 
 @end

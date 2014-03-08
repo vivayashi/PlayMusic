@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB329C6F18CB822C00786151 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB329C6E18CB822C00786151 /* AVFoundation.framework */; };
+		DB329C7118CB844E00786151 /* asunimukatte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB329C7018CB844E00786151 /* asunimukatte.mp3 */; };
 		DBEADFF018CB7F3E00C0351A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEADFEF18CB7F3E00C0351A /* Foundation.framework */; };
 		DBEADFF218CB7F3E00C0351A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEADFF118CB7F3E00C0351A /* CoreGraphics.framework */; };
 		DBEADFF418CB7F3E00C0351A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEADFF318CB7F3E00C0351A /* UIKit.framework */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB329C6E18CB822C00786151 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB329C7018CB844E00786151 /* asunimukatte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = asunimukatte.mp3; sourceTree = "<group>"; };
 		DBEADFEC18CB7F3E00C0351A /* PlayMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEADFEF18CB7F3E00C0351A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBEADFF118CB7F3E00C0351A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB329C6F18CB822C00786151 /* AVFoundation.framework in Frameworks */,
 				DBEADFF218CB7F3E00C0351A /* CoreGraphics.framework in Frameworks */,
 				DBEADFF418CB7F3E00C0351A /* UIKit.framework in Frameworks */,
 				DBEADFF018CB7F3E00C0351A /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		DBEADFEE18CB7F3E00C0351A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB329C6E18CB822C00786151 /* AVFoundation.framework */,
 				DBEADFEF18CB7F3E00C0351A /* Foundation.framework */,
 				DBEADFF118CB7F3E00C0351A /* CoreGraphics.framework */,
 				DBEADFF318CB7F3E00C0351A /* UIKit.framework */,
@@ -112,6 +118,7 @@
 		DBEADFF518CB7F3E00C0351A /* PlayMusic */ = {
 			isa = PBXGroup;
 			children = (
+				DB329C7018CB844E00786151 /* asunimukatte.mp3 */,
 				DBEADFFE18CB7F3E00C0351A /* PlayMusicAppDelegate.h */,
 				DBEADFFF18CB7F3E00C0351A /* PlayMusicAppDelegate.m */,
 				DBEAE00118CB7F3E00C0351A /* Main.storyboard */,
@@ -230,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBEAE00818CB7F3E00C0351A /* Images.xcassets in Resources */,
+				DB329C7118CB844E00786151 /* asunimukatte.mp3 in Resources */,
 				DBEADFFA18CB7F3E00C0351A /* InfoPlist.strings in Resources */,
 				DBEAE00318CB7F3E00C0351A /* Main.storyboard in Resources */,
 			);
@@ -461,6 +469,7 @@
 				DBEAE02018CB7F3E00C0351A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBEAE02118CB7F3E00C0351A /* Build configuration list for PBXNativeTarget "PlayMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +478,7 @@
 				DBEAE02318CB7F3E00C0351A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
