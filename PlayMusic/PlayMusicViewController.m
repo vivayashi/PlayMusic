@@ -20,8 +20,6 @@ UISlider *slider_;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	//self.view.backgroundColor = [UIColor whiteColor];
-    
     NSBundle *mainBundle = [NSBundle mainBundle];
     NSString *filePath = [mainBundle pathForResource:@"asunimukatte" ofType:@"mp3"];
     NSURL *fileUrl  = [NSURL fileURLWithPath:filePath];
@@ -30,7 +28,6 @@ UISlider *slider_;
     AVAudioPlayer *audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileUrl error:&error];
     if(!error) {
         [audioPlayer prepareToPlay];
-        //[self setButtonAndSlider];
         audioPlayer_ = audioPlayer;
     } else {
         NSLog(@"AVAudioPlayer Error");
@@ -62,7 +59,9 @@ UISlider *slider_;
 
 - (IBAction)Stop:(id)sender {
     
+    //UISlider *slider = (UISlider *)sender;
     [audioPlayer_ pause];
+    //audioPlayer_.volume = slider.value;
     
 }
 
